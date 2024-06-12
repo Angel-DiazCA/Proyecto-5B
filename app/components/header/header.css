@@ -1,0 +1,82 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+#header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 25%;
+    font-size: 20px;
+    -webkit-text-fill-color: seashell;
+}
+
+#header-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60px;
+    width: 25%;
+    font-size: 20px;
+    -webkit-text-fill-color: seashell;
+}
+
+.header-menu {
+    height: 20px;
+    width: 60px;
+}
+
+.header-logo {
+    height: 20px;
+    width: 60px;
+    margin: 10px;
+}
+
+.user-photo{
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+#img-user-photo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#icon-theme, #icon-logout, #icon-language {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+#user-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 60px;
+    height: 40px;
+}
+
+#label-user-name, #label-user-role{
+    margin-right: 70px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#user-icons i{
+    cursor: pointer;
+}
+
+#header-left i{
+    cursor: pointer;
+}

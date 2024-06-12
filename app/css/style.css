@@ -1,0 +1,55 @@
+:root{
+    /* Modules */
+--home: #F44336;
+--dashboard: #9C27B0;
+--layout: #2196F3;
+--settings: #8BC34A;
+--logs: #FFC107;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#header {
+    height: 60px;
+    background-color: #254336;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    font-family:sans-serif;
+    -webkit-text-fill-color: seashell;
+}
+
+#body {
+    display: flex;
+    height: calc(100% - 100px);
+}
+
+#sidemenu {
+    width: 300px;
+    background-color: #6B8A7A;
+}
+
+#content {
+    flex-grow: 1;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    font-family:sans-serif;
+}
+
+#footer {
+    height: 40px;
+    background-color: #B7B597;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    font-family:sans-serif;
+}
